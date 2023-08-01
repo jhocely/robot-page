@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+    to right,
+    #152935 0%,
+    24.526672034878786%,
+    #55ccda 62.96033994334278%,
+    81.48016997167139%,
+    #deb98d 100%
+  );
+  padding: 0;
+  margin: 150px 0 0 0;
+}
+
+header{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.active{
+    background: linear-gradient(
+    to right,
+    #152935 0%,
+    24.526672034878786%,
+    #55ccda 62.96033994334278%,
+    81.48016997167139%,
+    #deb98d 100%
+  );
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+    background-color: #152935;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background: linear-gradient(to right, #9EA0AC 0%, 29.64426877470356%, #E5E6EB 59.28853754940712%, 79.64426877470356%, #A7AAB3 100%);
+
+    color: #152935;
+}
+
+h1{
+    padding: 10px;
+    margin: 0;
+    background-color: #152935;
+    color: white;
+}
+
+
+footer{
+    background-color: #152935;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: auto;
+    margin-top: 80px;
+}
+
+footer p{
+  text-align: center;
+}
